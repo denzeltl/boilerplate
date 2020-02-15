@@ -1,0 +1,1 @@
+touch README.md index.html && mkdir css js images && cd css touch style.css && cd js touch main.js
