@@ -23,11 +23,34 @@ Paste to local project's package.json file.
 
 ## Usage
 
-Create the base architecture for your project.
+Generate the base architecture for your project.
 
 ```
 $ npm run base
 ```
+
+### HTML
+
+Paste boilerplate to generated index.html file.
+
+```
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>PROJECT TITLE</title>
+        <link rel="stylesheet" href="css/style.css" />
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet" />
+    </head>
+    <body>
+        <script src="js/main.js"></script>
+    </body>
+</html>
+```
+
+### README
 
 Paste format to generated README.md file.
 
@@ -49,29 +72,11 @@ View [here](PROJECT URL)
 -   LEARNINGS
 
 ## To Do:
+
 -   TODOS
 ```
 
-Paste boilerplate to generated index.html file.
-
-```
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-        <title>PROJECT TITLE</title>
-        <link rel="stylesheet" href="css/style.css" />
-        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet" />
-    </head>
-    <body>
-        <script src="js/main.js"></script>
-    </body>
-</html>
-```
-
-## To Do:
+## To Do
 
 -   Make SASS/Tailwind custom npm script
 -   Include other npm packages
