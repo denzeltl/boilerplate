@@ -4,7 +4,7 @@
 
 A basic boilerplate for simple projects.
 
-## Install
+## Usage
 
 Paste to local project's package.json file.
 
@@ -21,15 +21,13 @@ Paste to local project's package.json file.
 }
 ```
 
-## Usage
-
 Generate the base architecture for your project.
 
 ```
 $ npm run base
 ```
 
-### HTML
+## HTML
 
 Paste boilerplate to generated index.html file.
 
@@ -50,7 +48,7 @@ Paste boilerplate to generated index.html file.
 </html>
 ```
 
-### README
+## README
 
 Paste format to generated README.md file.
 
@@ -75,6 +73,14 @@ View [here](PROJECT URL)
 
 -   TODOS
 ```
+
+## CSS
+
+Choose between SASS or Tailwind CSS
+
+### SASS
+
+### Tailwind CSS
 
 ## To Do
 
