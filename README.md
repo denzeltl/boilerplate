@@ -4,7 +4,7 @@
 
 A basic boilerplate for simple projects.
 
-## Usage
+## Base
 
 Paste to local project's package.json file.
 
@@ -74,13 +74,7 @@ View [here](PROJECT URL)
 -   TODOS
 ```
 
-## CSS
-
-Choose between SASS or Tailwind CSS
-
-### SASS
-
-### Tailwind CSS
+## SCSS
 
 ## To Do
 
