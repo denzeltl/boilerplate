@@ -1,6 +1,6 @@
 # Boilerplate
 
-![GitHub package.json version](https://img.shields.io/github/package-json/v/denzeltl/boilerplate) ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/denzeltl/boilerplate)
+![GitHub package.json version](https://img.shields.io/github/package-json/v/denzeltl/boilerplate)
 
 A basic boilerplate for simple projects.
 
@@ -14,7 +14,7 @@ Paste to local project's package.json file.
     "version": "1.0.0",
     "description": "A basic boilerplate for simple projects",
     "scripts": {
-        "base": "touch README.md index.html && mkdir css js images && touch js/main.js"
+        "base": "touch README.md index.html && mkdir css scss js images && touch js/main.js scss/style.scss"
     },
     "author": "https://github.com/denzeltl/",
     "license": "ISC"
@@ -39,13 +39,33 @@ Paste boilerplate to generated index.html file.
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
         <title>PROJECT TITLE</title>
-        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/style.min.css" />
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet" />
     </head>
     <body>
         <script src="js/main.js"></script>
     </body>
 </html>
+```
+
+## SCSS
+
+Paste format to generated style.scss file.
+
+```
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
 ```
 
 ## README
@@ -74,9 +94,6 @@ View [here](PROJECT URL)
 -   TODOS
 ```
 
-## SCSS
-
 ## To Do
 
--   Make SASS/Tailwind custom npm script
 -   Include other npm packages
