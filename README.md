@@ -94,6 +94,12 @@ View [here](PROJECT URL)
 -   TODOS
 ```
 
+## Usage
+
+1. Inside VS Code, right click on page and select "Open with Live Server" or click the "Go Live" button located on the status bar to activate auto refreshing of webpage.
+
+2. When editing .scss files, click "Watch Sass" button on the status bar to map and watch scss code.
+
 ## To Do
 
 -   Include other npm packages
