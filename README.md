@@ -96,9 +96,27 @@ View [here](PROJECT URL)
 
 ## Usage
 
-1. Inside VS Code, right click on page and select "Open with Live Server" or click the "Go Live" button located on the status bar to activate auto refreshing of webpage.
+1.  Inside VS Code, right click on page and select "Open with Live Server" or click the "Go Live" button located on the status bar to activate auto refreshing of webpage.
 
-2. When editing .scss files, click "Watch Sass" button on the status bar to map and watch scss code.
+2.  When editing .scss files, click "Watch Sass" button on the status bar to map and watch scss code.
+
+## Troubleshoot
+
+1.  I cannot see the "Go Live" or "Watch Sass" buttons on the status bar.
+-   Please download "Live Server" and "Live Sass Compiler" extensions in your VS Code.
+
+2.  My generated .css file is not linked to the proper css folder.
+-   Please paste the below code to your settings.json to map the generated scss file properly.
+
+```
+"liveSassCompile.settings.formats":[
+        {
+            "format": "compressed",
+            "extensionName": ".min.css",
+            "savePath": "/css/"
+        }
+    ]
+```
 
 ## To Do
 
