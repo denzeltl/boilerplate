@@ -103,19 +103,19 @@ View [here](PROJECT URL)
 ## Troubleshoot
 
 1.  I cannot see the "Go Live" or "Watch Sass" buttons on the status bar.
--   Please download "Live Server" and "Live Sass Compiler" extensions in your VS Code.
+&#151   Please download "Live Server" and "Live Sass Compiler" extensions in your VS Code.
 
 2.  My generated .css file is not linked to the proper css folder.
--   Please paste the below code to your settings.json to map the generated scss file properly.
+&#151   Please paste the below code to your settings.json to map the generated scss file properly.
 
 ```
 "liveSassCompile.settings.formats":[
-        {
-            "format": "compressed",
-            "extensionName": ".min.css",
-            "savePath": "/css/"
-        }
-    ]
+    {
+        "format": "compressed",
+        "extensionName": ".min.css",
+        "savePath": "/css/"
+    }
+]
 ```
 
 ## To Do
