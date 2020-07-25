@@ -60,24 +60,43 @@ Paste format to generated style.scss file.
 }
 
 html {
+    font-family: 'Montserrat', sans-serif;
     font-size: 16px;
 }
 
 body {
-    font-family: "Montserrat", sans-serif;
+    font-family: inherit;
+    background: #eee;
+    color: #333;
+}
+
+input,
+select,
+textarea,
+button {
+    font-family: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: #333;
+    text-underline: none;
 }
 
 /* Media Queries */
+@media screen and (min-width: 480px) {
+}
+
+@media screen and (min-width: 768px) {
+}
+
+@media screen and (min-width: 992px) {
+}
+
 @media screen and (max-width: 1200px) {
-}
-
-@media screen and (max-width: 992px) {
-}
-
-@media screen and (max-width: 768px) {
-}
-
-@media screen and (max-width: 480px) {
 }
 ```
 
