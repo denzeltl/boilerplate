@@ -83,7 +83,7 @@ ul {
 
 a {
     color: #333;
-    text-underline: none;
+    text-decoration: none;
 }
 
 /* Media Queries */
