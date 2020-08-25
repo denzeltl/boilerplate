@@ -77,6 +77,13 @@ button {
     font-family: inherit;
 }
 
+button {
+    background: transparent;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+}
+
 ul {
     list-style: none;
 }
