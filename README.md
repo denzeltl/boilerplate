@@ -107,6 +107,42 @@ a {
 }
 ```
 
+## Media Queries
+
+Mobile First
+
+```
+/* Media Queries */
+@media screen and (min-width: 480px) {
+}
+
+@media screen and (min-width: 768px) {
+}
+
+@media screen and (min-width: 992px) {
+}
+
+@media screen and (max-width: 1200px) {
+}
+```
+
+Desktop First
+
+```
+/* Media Queries */
+@media screen and (min-width: 1200px) {
+}
+
+@media screen and (max-width: 992px) {
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 480px) {
+}
+```
+
 ## README
 
 Paste format to generated README.md file.
