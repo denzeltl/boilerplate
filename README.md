@@ -57,6 +57,12 @@ Paste format to generated style.scss file.
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    ::-moz-selection {
+        background: #e15839; color: #fff;
+    }
+    ::selection {
+        background: #e15839; color: #fff;
+    }
 }
 
 html {
